@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cabeluddah's</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/gus-house.css">
+  </head>
+  <body>
+    <script>
+      window.GusHouseENV = {{ENV}};
+      window.EmberENV = window.GusHouseENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/gus-house.js"></script>
+    <script>
+      window.GusHouse = require('gus-house/app')['default'].create(GusHouseENV.APP);
+    </script>
+  </body>
+</html>
