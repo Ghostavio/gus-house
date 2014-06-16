@@ -1,13 +1,33 @@
 html, body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 560px;
 }
 
 #title {
 	text-align: center;
 	font-family: Helvetica;
-	font-size: 62px;
-	margin-top: 120px;
+	font-size: 32px;
+}
+
+@media all and (min-width: 700px) {
+	#title {
+		font-size: 62px;
+		margin-top: 0;
+	}
+	.wrapper {
+		height: 600px;
+	}
 }
 
 .map {
