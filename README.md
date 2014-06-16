@@ -1,9 +1,12 @@
 # Gus-house
 
 This is the website for Cabeluddah's, as known as Almadovar's Tavern or just Gustavo's Place.
-This was made in ten minutes and it's hosted at http://gus.house
+
+This was made in ten minutes and it's hosted at http://gus.house.
+
 
 Made using Ember and hosted at Heroku.
+
 This README outlines the details of collaborating on this Ember application.
 
 ## Installation
