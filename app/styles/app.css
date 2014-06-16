@@ -17,7 +17,14 @@ html, body {
 #title {
 	text-align: center;
 	font-family: Helvetica;
-	font-size: 32px;
+	font-size: 28px;
+}
+
+.map {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 800px;
+	height: 350px;
 }
 
 @media all and (min-width: 700px) {
@@ -28,10 +35,7 @@ html, body {
 	.wrapper {
 		height: 600px;
 	}
-}
-
-.map {
-	margin: 0 auto;
-	padding: 0 20px;
-	max-width: 800px;
+	.map {
+		height: 450px;
+	}
 }
