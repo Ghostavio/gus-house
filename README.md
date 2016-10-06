@@ -6,24 +6,10 @@ This is just a static website and it was made in ten minutes. It's hosted at [ht
 
 Enjoy :)
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
+## Deploying to Firebase
 
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+$ npm install -g firebase-tools
+$ firebase login
+$ firebase deploy
 ```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
